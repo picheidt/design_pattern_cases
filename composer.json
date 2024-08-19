@@ -1,0 +1,20 @@
+{
+    "name": "vinic/design_pattern_cases",
+    "authors": [
+        {
+            "name": "vinicius picheidt marques",
+            "email": "viniciuspicheidt@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Behavioral\\": "./Behavioral/",
+            "Creational\\": "./Creational/",
+            "Structural\\": "./Structural/"
+        }
+    },
+    "scripts": {
+        "factory_method": "php ./Creational/FactoryMethod/Test.php"
+    },
+    "require": {}
+}
